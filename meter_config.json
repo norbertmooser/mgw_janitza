@@ -1,0 +1,584 @@
+{
+    "50000": {
+      "Channel Name": "uln_0",
+      "Memory Address": "20008830",
+      "Value 1": 17251,
+      "Value 2": "4363",
+      "Description": "Voltage phase-to-neutral for phase 0"
+    },
+    "50002": {
+      "Channel Name": "uln_1",
+      "Memory Address": "20008834",
+      "Value 1": 17251,
+      "Value 2": "4363",
+      "Description": "Voltage phase-to-neutral for phase 1"
+    },
+    "50004": {
+      "Channel Name": "uln_2",
+      "Memory Address": "20008838",
+      "Value 1": 17254,
+      "Value 2": "4366",
+      "Description": "Voltage phase-to-neutral for phase 2"
+    },
+    "50006": {
+      "Channel Name": "ull_0",
+      "Memory Address": "2000883c",
+      "Value 1": 17348,
+      "Value 2": "43c4",
+      "Description": "Voltage phase-to-phase for phase 0"
+    },
+    "50008": {
+      "Channel Name": "ull_1",
+      "Memory Address": "20008840",
+      "Value 1": 17350,
+      "Value 2": "43c6",
+      "Description": "Voltage phase-to-phase for phase 1"
+    },
+    "50010": {
+      "Channel Name": "ull_2",
+      "Memory Address": "20008844",
+      "Value 1": 17350,
+      "Value 2": "43c6",
+      "Description": "Voltage phase-to-phase for phase 2"
+    },
+    "50012": {
+      "Channel Name": "iln_0",
+      "Memory Address": "20008848",
+      "Value 1": 16996,
+      "Value 2": "4264",
+      "Description": "Current for phase 0"
+    },
+    "50014": {
+      "Channel Name": "iln_1",
+      "Memory Address": "2000884c",
+      "Value 1": 16996,
+      "Value 2": "4264",
+      "Description": "Current for phase 1"
+    },
+    "50016": {
+      "Channel Name": "iln_2",
+      "Memory Address": "20008850",
+      "Value 1": 16996,
+      "Value 2": "4264",
+      "Description": "Current for phase 2"
+    },
+    "50018": {
+      "Channel Name": "iln_3",
+      "Memory Address": "20008854",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Current for phase 3 (if available)"
+    },
+    "50020": {
+      "Channel Name": "pln_0",
+      "Memory Address": "20008858",
+      "Value 1": 17995,
+      "Value 2": "464b",
+      "Description": "Active power for phase 0"
+    },
+    "50022": {
+      "Channel Name": "pln_1",
+      "Memory Address": "2000885c",
+      "Value 1": 17994,
+      "Value 2": "464a",
+      "Description": "Active power for phase 1"
+    },
+    "50024": {
+      "Channel Name": "pln_2",
+      "Memory Address": "20008860",
+      "Value 1": 17997,
+      "Value 2": "464d",
+      "Description": "Active power for phase 2"
+    },
+    "50026": {
+      "Channel Name": "p_sum3",
+      "Memory Address": "20008864",
+      "Value 1": 18200,
+      "Value 2": "4718",
+      "Description": "Sum of active power for all three phases"
+    },
+    "50028": {
+      "Channel Name": "qln_0",
+      "Memory Address": "20008868",
+      "Value 1": 50113,
+      "Value 2": "c3c1",
+      "Description": "Reactive power for phase 0"
+    },
+    "50030": {
+      "Channel Name": "qln_1",
+      "Memory Address": "2000886c",
+      "Value 1": 50154,
+      "Value 2": "c3ea",
+      "Description": "Reactive power for phase 1"
+    },
+    "50032": {
+      "Channel Name": "qln_2",
+      "Memory Address": "20008870",
+      "Value 1": 50146,
+      "Value 2": "c3e2",
+      "Description": "Reactive power for phase 2"
+    },
+    "50034": {
+      "Channel Name": "q_sum3",
+      "Memory Address": "20008874",
+      "Value 1": 50339,
+      "Value 2": "c4a3",
+      "Description": "Sum of reactive power for all three phases"
+    },
+    "50036": {
+      "Channel Name": "sln_0",
+      "Memory Address": "20008878",
+      "Value 1": 17995,
+      "Value 2": "464b",
+      "Description": "Apparent power for phase 0"
+    },
+    "50038": {
+      "Channel Name": "sln_1",
+      "Memory Address": "2000887c",
+      "Value 1": 17994,
+      "Value 2": "464a",
+      "Description": "Apparent power for phase 1"
+    },
+    "50040": {
+      "Channel Name": "sln_2",
+      "Memory Address": "20008880",
+      "Value 1": 17997,
+      "Value 2": "464d",
+      "Description": "Apparent power for phase 2"
+    },
+    "50042": {
+      "Channel Name": "s_sum3",
+      "Memory Address": "20008884",
+      "Value 1": 18200,
+      "Value 2": "4718",
+      "Description": "Sum of apparent power for all three phases"
+    },
+    "50044": {
+      "Channel Name": "cosphi_0",
+      "Memory Address": "20008888",
+      "Value 1": 16255,
+      "Value 2": "3f7f",
+      "Description": "Power factor for phase 0"
+    },
+    "50046": {
+      "Channel Name": "cosphi_1",
+      "Memory Address": "2000888c",
+      "Value 1": 16255,
+      "Value 2": "3f7f",
+      "Description": "Power factor for phase 1"
+    },
+    "50048": {
+      "Channel Name": "cosphi_2",
+      "Memory Address": "20008890",
+      "Value 1": 16255,
+      "Value 2": "3f7f",
+      "Description": "Power factor for phase 2"
+    },
+    "50050": {
+      "Channel Name": "cos_sum3",
+      "Memory Address": "20008894",
+      "Value 1": 16255,
+      "Value 2": "3f7f",
+      "Description": "Sum of power factors for all three phases"
+    },
+    "50052": {
+      "Channel Name": "freq",
+      "Memory Address": "20008898",
+      "Value 1": 16968,
+      "Value 2": "4248",
+      "Description": "Frequency of the voltage"
+    },
+    "50054": {
+      "Channel Name": "i_sum3",
+      "Memory Address": "2000889c",
+      "Value 1": 16421,
+      "Value 2": "4025",
+      "Description": "Sum of current for all three phases"
+    },
+    "50056": {
+      "Channel Name": "pt100_actual",
+      "Memory Address": "200088a0",
+      "Value 1": 18303,
+      "Value 2": "477f",
+      "Description": "Actual temperature measured by PT100 sensor"
+    },
+    "50058": {
+      "Channel Name": "pt100_average",
+      "Memory Address": "200088a4",
+      "Value 1": 18303,
+      "Value 2": "477f",
+      "Description": "Average temperature measured by PT100 sensor"
+    },
+    "50060": {
+      "Channel Name": "pt100_min",
+      "Memory Address": "200088a8",
+      "Value 1": 18303,
+      "Value 2": "477f",
+      "Description": "Minimum temperature measured by PT100 sensor"
+    },
+    "50062": {
+      "Channel Name": "pt100_max",
+      "Memory Address": "200088ac",
+      "Value 1": 18303,
+      "Value 2": "477f",
+      "Description": "Maximum temperature measured by PT100 sensor"
+    },
+    "50064": {
+      "Channel Name": "rcm_actual",
+      "Memory Address": "200088b0",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Actual residual current monitoring"
+    },
+    "50066": {
+      "Channel Name": "rcm_limit",
+      "Memory Address": "200088b4",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Residual current monitoring limit"
+    },
+    "50068": {
+      "Channel Name": "rcm_curr_p",
+      "Memory Address": "200088b8",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Residual current monitoring current peak"
+    },
+    "50070": {
+      "Channel Name": "rcm_limit_p",
+      "Memory Address": "200088bc",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Residual current monitoring limit peak"
+    },
+    "50072": {
+      "Channel Name": "ei1_i_0",
+      "Memory Address": "200088c0",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Energy input 1 for channel 0"
+    },
+    "50074": {
+      "Channel Name": "ei1_i_1",
+      "Memory Address": "200088c4",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Energy input 1 for channel 1"
+    },
+    "50076": {
+      "Channel Name": "ei1_i_2",
+      "Memory Address": "200088c8",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Energy input 1 for channel 2"
+    },
+    "50078": {
+      "Channel Name": "ei1_i_3",
+      "Memory Address": "200088cc",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Energy input 1 for channel 3"
+    },
+    "50080": {
+      "Channel Name": "thd_uln0",
+      "Memory Address": "200088d0",
+      "Value 1": 16340,
+      "Value 2": "3fd4",
+      "Description": "Total harmonic distortion for voltage phase 0"
+    },
+    "50082": {
+      "Channel Name": "thd_uln1",
+      "Memory Address": "200088d4",
+      "Value 1": 16316,
+      "Value 2": "3fbc",
+      "Description": "Total harmonic distortion for voltage phase 1"
+    },
+    "50084": {
+      "Channel Name": "thd_uln2",
+      "Memory Address": "200088d8",
+      "Value 1": 16322,
+      "Value 2": "3fc2",
+      "Description": "Total harmonic distortion for voltage phase 2"
+    },
+    "50086": {
+      "Channel Name": "thd_il0",
+      "Memory Address": "200088dc",
+      "Value 1": 16428,
+      "Value 2": "402c",
+      "Description": "Total harmonic distortion for current phase 0"
+    },
+    "50088": {
+      "Channel Name": "thd_il1",
+      "Memory Address": "200088e0",
+      "Value 1": 16428,
+      "Value 2": "402c",
+      "Description": "Total harmonic distortion for current phase 1"
+    },
+    "50090": {
+      "Channel Name": "thd_il2",
+      "Memory Address": "200088e4",
+      "Value 1": 16432,
+      "Value 2": "4030",
+      "Description": "Total harmonic distortion for current phase 2"
+    },
+    "50092": {
+      "Channel Name": "g_wh0",
+      "Memory Address": "200088e8",
+      "Value 1": 19375,
+      "Value 2": "4baf",
+      "Description": "Energy consumption (wh) for phase 0"
+    },
+    "50094": {
+      "Channel Name": "g_wh1",
+      "Memory Address": "200088ec",
+      "Value 1": 19365,
+      "Value 2": "4ba5",
+      "Description": "Energy consumption (wh) for phase 1"
+    },
+    "50096": {
+      "Channel Name": "g_wh2",
+      "Memory Address": "200088f0",
+      "Value 1": 19370,
+      "Value 2": "4baa",
+      "Description": "Energy consumption (wh) for phase 2"
+    },
+    "50098": {
+      "Channel Name": "g_wh_suml13",
+      "Memory Address": "200088f4",
+      "Value 1": 19583,
+      "Value 2": "4c7f",
+      "Description": "Sum of energy consumption (wh) for all three phases"
+    },
+    "50100": {
+      "Channel Name": "g_iqh0",
+      "Memory Address": "200088f8",
+      "Value 1": 17008,
+      "Value 2": "4270",
+      "Description": "Instantaneous reactive power for phase 0"
+    },
+    "50102": {
+      "Channel Name": "g_iqh1",
+      "Memory Address": "200088fc",
+      "Value 1": 16776,
+      "Value 2": "4188",
+      "Description": "Instantaneous reactive power for phase 1"
+    },
+    "50104": {
+      "Channel Name": "g_iqh2",
+      "Memory Address": "20008900",
+      "Value 1": 17274,
+      "Value 2": "437a",
+      "Description": "Instantaneous reactive power for phase 2"
+    },
+    "50106": {
+      "Channel Name": "g_iqh_suml13",
+      "Memory Address": "20008904",
+      "Value 1": 17316,
+      "Value 2": "43a4",
+      "Description": "Sum of instantaneous reactive power for all three phases"
+    },
+    "50108": {
+      "Channel Name": "ed1_di1_c",
+      "Memory Address": "20008908",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Energy data input 1 counter"
+    },
+    "50110": {
+      "Channel Name": "ed1_di2_c",
+      "Memory Address": "2000890c",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Energy data input 2 counter"
+    },
+    "50112": {
+      "Channel Name": "ed1_di3_c",
+      "Memory Address": "20008910",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Energy data input 3 counter"
+    },
+    "50114": {
+      "Channel Name": "ed1_di4_c",
+      "Memory Address": "20008914",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Energy data input 4 counter"
+    },
+    "50116": {
+      "Channel Name": "do_out",
+      "Memory Address": "20008918",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Digital output"
+    },
+    "50117": {
+      "Channel Name": "di_in",
+      "Memory Address": "2000891a",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Digital input"
+    },
+    "50118": {
+      "Channel Name": "module_state",
+      "Memory Address": "2000891c",
+      "Value 1": 4,
+      "Value 2": "4",
+      "Description": "Module state"
+    },
+    "50119": {
+      "Channel Name": "date_ym",
+      "Memory Address": "2000891e",
+      "Value 1": 6151,
+      "Value 2": "1807",
+      "Description": "Date in year-month format"
+    },
+    "50120": {
+      "Channel Name": "date_dh",
+      "Memory Address": "20008920",
+      "Value 1": 528,
+      "Value 2": "210",
+      "Description": "Date in day-hour format"
+    },
+    "50121": {
+      "Channel Name": "date_ms",
+      "Memory Address": "20008922",
+      "Value 1": 13869,
+      "Value 2": "362d",
+      "Description": "Date in minutes-seconds format"
+    },
+    "50122": {
+      "Channel Name": "basis_ver",
+      "Memory Address": "20008924",
+      "Value 1": 8218,
+      "Value 2": "201a",
+      "Description": "Basic version of the firmware/software"
+    },
+    "29996": {
+      "Channel Name": "i4ct1",
+      "Memory Address": "20008928",
+      "Value 1": 5,
+      "Value 2": "5",
+      "Description": "Current transformer 1 input 4"
+    },
+    "29997": {
+      "Channel Name": "i4ct2",
+      "Memory Address": "2000892a",
+      "Value 1": 5,
+      "Value 2": "5",
+      "Description": "Current transformer 2 input 4"
+    },
+    "29998": {
+      "Channel Name": "i5ct1",
+      "Memory Address": "2000892c",
+      "Value 1": 700,
+      "Value 2": "2bc",
+      "Description": "Current transformer 1 input 5"
+    },
+    "29999": {
+      "Channel Name": "i5ct2",
+      "Memory Address": "2000892e",
+      "Value 1": 1,
+      "Value 2": "1",
+      "Description": "Current transformer 2 input 5"
+    },
+    "30000": {
+      "Channel Name": "basis_addr",
+      "Memory Address": "20008930",
+      "Value 1": 1,
+      "Value 2": "1",
+      "Description": "Basic address"
+    },
+    "30001": {
+      "Channel Name": "basis_baud",
+      "Memory Address": "20008932",
+      "Value 1": 4,
+      "Value 2": "4",
+      "Description": "Basic baud rate"
+    },
+    "30002": {
+      "Channel Name": "basis_format",
+      "Memory Address": "20008934",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Basic format"
+    },
+    "30003": {
+      "Channel Name": "reserv0",
+      "Memory Address": "20008936",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Reserved"
+    },
+    "30004": {
+      "Channel Name": "wiring",
+      "Memory Address": "20008938",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Wiring configuration"
+    },
+    "30005": {
+      "Channel Name": "grid_freq",
+      "Memory Address": "2000893a",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Grid frequency"
+    },
+    "30006": {
+      "Channel Name": "reserv1",
+      "Memory Address": "2000893c",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Reserved"
+    },
+    "30007": {
+      "Channel Name": "reserv2",
+      "Memory Address": "2000893e",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Reserved"
+    },
+    "30008": {
+      "Channel Name": "pt1",
+      "Memory Address": "20008940",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Potential transformer 1"
+    },
+    "30010": {
+      "Channel Name": "ct1",
+      "Memory Address": "20008944",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Current transformer 1"
+    },
+    "30012": {
+      "Channel Name": "pt2",
+      "Memory Address": "20008948",
+      "Value 1": 230,
+      "Value 2": "e6",
+      "Description": "Potential transformer 2"
+    },
+    "30013": {
+      "Channel Name": "ct2",
+      "Memory Address": "2000894a",
+      "Value 1": 5,
+      "Value 2": "5",
+      "Description": "Current transformer 2"
+    },
+    "30014": {
+      "Channel Name": "rcm_limit",
+      "Memory Address": "2000894c",
+      "Value 1": 2,
+      "Value 2": "2",
+      "Description": "Residual current monitoring limit"
+    },
+    "30015": {
+      "Channel Name": "temp_comp",
+      "Memory Address": "2000894e",
+      "Value 1": 0,
+      "Value 2": "0",
+      "Description": "Temperature compensation"
+    }
+  }
+  
