@@ -6,10 +6,9 @@ use tokio_modbus::prelude::*;
 use tokio_modbus::client::Context as ModbusContext;
 use serde_json::json;
 use log::{error, info};
-use config::config::config; // Import your config module
 
-use config::Config; // Import the Config struct
-use std::error::Error;
+mod config;
+use config::{Config, RegisterConfig, ChunkConfig};
 
 
 #[derive(Debug)]
@@ -158,10 +157,6 @@ impl Janitza604 {
 async fn main() {
     env_logger::init();
     println!("Starting the application...");
-
-    // Load configuration from config.yaml
-    let config: Result<Config, Box<dyn Error>> = Config::from_file("config.yaml")?;
-    config.print_config(); // Call print_config on the loaded Config instance
 
     let mut meter: Janitza604 = match Janitza604::new("10.15.1.17", 502).await {
         Ok(meter) => {
